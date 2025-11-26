@@ -15,7 +15,7 @@ animal_sounds(animal, sound)
 A character string describing the sound an animal makes.
 }
 \description{
-Prints the sound that an animal makes.
+Prints the sound that an animal makes by creating a wrapper around \code{\link[=paste0]{paste0()}}.
 }
 \examples{
 animal_sounds("dog", "woof")
