@@ -13,13 +13,16 @@
 
 animal_sounds <- function(animal, sound) {
 
-  if (!rlang::is_character(animal, n = 1)) {
-    cli::cli_abort("The `animal` argument must be a character vector of length 1.")
-  }
+  check_arg(animal)
 
-  if (!rlang::is_character(sound, n = 1)) {
-    cli::cli_abort("The `sound` argument must be a character vector of length 1.")
-  }
+  check_arg(sound)
 
   paste0("The ", animal, " says ", sound, "!")
+}
+
+check_arg <- function(arg, n = 1) {
+  if (!rlang::is_character(arg, n = n)) {
+    cli::cli_abort(c("{.var arg} argument must be a character vector of length {n}",
+                     "i" = "It was {.type {arg}} of length {length(arg)} instead."))
+  }
 }
