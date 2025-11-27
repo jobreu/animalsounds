@@ -1,11 +1,12 @@
 Package: animalsounds
-Title: What the Package Does (One Line, Title Case)
+Title: Prints Animals and Sounds
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Johannes", "Breuer", , "johannes.breuer@cais-research.de", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0001-5906-7873"))
+Description: Prints the sounds that animals make. Also contains a data set of
+    farm animals and their sounds.
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
