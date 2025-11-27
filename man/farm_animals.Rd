@@ -7,8 +7,8 @@
 \format{
 A data frame with 5 rows and 2 columns:
 \describe{
-\item{animal}{The type of farm animal.}
-\item{sound}{The sound the farm animal makes.}
+\item{\code{animal}}{The type of farm animal.}
+\item{\code{sound}}{The sound the farm animal makes.}
 }
 }
 \source{
