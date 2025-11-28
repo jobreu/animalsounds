@@ -33,16 +33,3 @@ check_arg <- function(arg, n = 1) {
                    class = "error_wrong_length_or_not_string")
   }
 }
-
-#' Get First N Rows of Data Frame
-#'
-#' Return the first n rows of a data frame
-#'
-#' @param data A data frame
-#' @param n An integer specifying the number of rows to return
-#'
-#' @export
-first_n <- function(data, n) {
-  data |>
-    dplyr::slice_head(n = n)
-}
