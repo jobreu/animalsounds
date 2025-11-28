@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   animalsounds: animalsounds.html
-last_built: 2025-11-28T12:44Z
+last_built: 2025-11-28T12:46Z
 urls:
   reference: https://jobreu.github.io/animalsounds/reference
   article: https://jobreu.github.io/animalsounds/articles

@@ -8,7 +8,7 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/jobreu/animalsounds/blob/main/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/jobreu/animalsounds/blob/v0.1.0/DESCRIPTION)
 
 Breuer J (2025). *animalsounds: Prints Animals and Sounds*. R package
 version 0.1.0, <https://github.com/jobreu/animalsounds>.
