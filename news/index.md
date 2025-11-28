@@ -1,5 +1,5 @@
 # Changelog
 
-## animalsounds (development version)
+## animalsounds 0.1.0
 
 - Initial release
